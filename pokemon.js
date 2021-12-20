@@ -1,10 +1,12 @@
 const pokelista$$ = document.querySelector(".pokelista");
+ 
 
 const MyPokemonArray = () => {
   const pokemonArray = [];
 
-  for (let i = 1; i <= 151; i++) {
+  for (let i = 1; i <= 150; i++) {
     const url = `https://pokeapi.co/api/v2/pokemon/${i}`;
+
     pokemonArray.push(fetch(url).then((res) => res.json()));
   }
 
