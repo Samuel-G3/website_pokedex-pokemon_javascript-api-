@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="pokemon.js" defer></script>
+    <title>🔴⚪ Pokédex ⚪🔴</title>
+  </head>
+
+  <body>
+    <div class="top">
+      <img
+        class="logo"
+        src="https://i.ibb.co/5WXWqgX/2560px-International-Pok-mon-logo-svg.png"
+        alt="pokemon logo"
+      />
+    </div>
+
+    <h1>
+      <div class="title">
+        <img
+          class="logo2"
+          src="https://i.ibb.co/PWXGf6v/09143545bfce88abd2a7d6a62e4670cc.png"
+          alt="pokemon logo"
+        />
+      </div>
+    </h1>
+    <div class="containerForm">
+      <input
+        id="formulario"
+        type="search"
+        name="buscarpokemon"
+        placeholder="¡Favorite pokémon!"
+        style="text-transform: capitalize"
+      />
+      <input id="button-search" type="submit" value="Catch" />
+    </div>
+
+    <div class="containerPokemonFavo">
+      <div id="pickedPokemon" hidden></div>
+    </div>
+    <ul class="pokelista"></ul>
+    <footer class="footer" id="contact">
+      <br />
+      <p>Samuel García Iñesta</p>
+      <p>Student at Upgrade HUB - FSD 2021</p>
+      <p>©2021 Copyright</p>
+      <br />
+    </footer>
+  </body>
+</html>

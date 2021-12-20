@@ -1,0 +1,36 @@
+.display {
+  @include display;
+  &:hover {
+    @include hover;
+  }
+}
+
+.display img {
+  cursor: zoom-in;
+  width: 200px;
+  height: 200px;
+  &:hover {
+    cursor: zoom-in;
+    transition: 0.5s;
+    transform: scale(1.1);
+  
+  }
+}
+
+.pokelista {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.containerPokemonFavo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 400px;
+  margin: 200px;
+}

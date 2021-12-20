@@ -1,0 +1,39 @@
+ 
+$secondaryColor: #1e4286;
+$tertiaryColor: #c49e08;
+$whiteColor: aliceblue;
+ 
+@mixin display {
+  max-width: 400px;
+  max-height: 600px;
+  height: 530px;
+  width: 200px;
+  padding: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://i.ibb.co/ZLgN6Wd/grass-with-clouds-background-vector.jpg");
+  background-color: $whiteColor;
+  margin: 5px;
+  margin-bottom: 106px;
+  border-radius: 20px;
+  border: solid #020e25;
+  box-shadow: 10px 10px 8px #00087a;
+  color: $secondaryColor;
+}
+
+@mixin hover {
+  transition: 0.5s;
+  transform: scale(1);
+  box-shadow: 10px 10px 8px $tertiaryColor;
+  color: #c49e0800;
+  border: solid rgb(208, 243, 7);
+  background-image: url("https://i.ibb.co/5L917wt/gift.gif");
+  background-size: 50%;
+  transition: 0.8s;
+  transform: scale(1.2);
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

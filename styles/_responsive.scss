@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 100%;
+  }
+}
+.logo2 {
+  width: 60%;
+}
+@media only screen and (max-width: 600px) {
+  .logo2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .containerPokemonFavo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 300px;
+    margin: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .display {
+    max-width: 200px;
+    max-height: 320px;
+    font-size: 10px;
+    padding: 10px;
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .display img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .display img:hover {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}

@@ -1,0 +1,33 @@
+.containerForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#formulario {
+  max-width: 300px;
+  background-color: $whiteColor;
+  margin: 8px;
+  font-size: 15px;
+  border: 2px solid $secondaryColor;
+  border-radius: 8px;
+  text-align: center;
+  
+}
+
+#formulario:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+#button-search {
+  background-color: $tertiaryColor;
+  color: $secondaryColor;
+  border-radius: 8px;
+}
+
+#button-search:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}

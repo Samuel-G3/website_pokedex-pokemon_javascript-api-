@@ -1,0 +1,314 @@
+@import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+.top {
+  background-color: aliceblue;
+  padding: 40px;
+  margin: 0px;
+  border-bottom: solid black;
+  border-width: 10px;
+}
+
+.top:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-box-shadow: 10px 10px 8px #c49e08;
+          box-shadow: 10px 10px 8px #c49e08;
+  color: #c49e0800;
+  border: solid #d0f307;
+  background-image: url("https://i.ibb.co/5L917wt/gift.gif");
+  background-size: 50%;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  width: 50%;
+}
+
+.title img:hover {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.display {
+  max-width: 400px;
+  max-height: 600px;
+  height: 530px;
+  width: 200px;
+  padding: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://i.ibb.co/ZLgN6Wd/grass-with-clouds-background-vector.jpg");
+  background-color: aliceblue;
+  margin: 5px;
+  margin-bottom: 106px;
+  border-radius: 20px;
+  border: solid #020e25;
+  -webkit-box-shadow: 10px 10px 8px #00087a;
+          box-shadow: 10px 10px 8px #00087a;
+  color: #1e4286;
+}
+
+.display:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-box-shadow: 10px 10px 8px #c49e08;
+          box-shadow: 10px 10px 8px #c49e08;
+  color: #c49e0800;
+  border: solid #d0f307;
+  background-image: url("https://i.ibb.co/5L917wt/gift.gif");
+  background-size: 50%;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.display img {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  width: 200px;
+  height: 200px;
+}
+
+.display img:hover {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.pokelista {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 10px;
+}
+
+.containerPokemonFavo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 400px;
+  margin: 200px;
+}
+
+.containerForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#formulario {
+  max-width: 300px;
+  background-color: aliceblue;
+  margin: 8px;
+  font-size: 15px;
+  border: 2px solid #1e4286;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#formulario:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#button-search {
+  background-color: #c49e08;
+  color: #1e4286;
+  border-radius: 8px;
+}
+
+#button-search:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #1e4286;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+  line-height: 25px;
+  color: #c49e08;
+  font-size: 12px;
+}
+
+.footer:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-box-shadow: 10px 10px 8px #c49e08;
+          box-shadow: 10px 10px 8px #c49e08;
+  color: #c49e0800;
+  border: solid #d0f307;
+  background-image: url("https://i.ibb.co/5L917wt/gift.gif");
+  background-size: 50%;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #1e4286;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 100%;
+  }
+}
+
+.logo2 {
+  width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .containerPokemonFavo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 300px;
+    margin: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .display {
+    max-width: 200px;
+    max-height: 320px;
+    font-size: 10px;
+    padding: 10px;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .display img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .display img:hover {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Pokemon Solid", sans-serif;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+body {
+  background-color: red;
+}
+
+h1 {
+  padding: 10px;
+}
+
+h2 {
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    text-align: center;
+  }
+}
+
+div {
+  margin: 20px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+.top {
+  background-color: $whiteColor;
+  padding: 40px;
+  margin: 0px;
+  border-bottom: solid black;
+  border-width: 10px;
+  &:hover {
+    @include hover;
+  }
+}
+.logo {
+  width: 50%;
+}
+
+.title img:hover {
+  transition: 0.8s;
+  transform: scale(1.3);
+}
