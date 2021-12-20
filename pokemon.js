@@ -36,7 +36,9 @@ const print = (pokemonData) => {
 };
 
 MyPokemonArray();
-//________________________________________
+
+
+//_______________BOTÓN:
  
 
 document.querySelector("#button-search").addEventListener("click", () => {

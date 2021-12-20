@@ -32,6 +32,10 @@
   width: 40%;
 }
 
+.title {
+  margin-top: 40px;
+}
+
 .title img:hover {
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -125,6 +129,10 @@
           flex-direction: column;
   height: 400px;
   margin: 200px;
+  background-image: url("https://i.ibb.co/JvD4Fr2/BALL.gif");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .containerForm {
@@ -137,7 +145,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -148,10 +155,15 @@
   max-width: 300px;
   background-color: aliceblue;
   margin: 8px;
-  font-size: 15px;
+  font-size: 16px;
   border: 2px solid #1e4286;
   border-radius: 8px;
-  text-align: center;
+  padding: 3px;
+  text-align: right;
+  padding: 0px 0px 0px 10px;
+  margin: 30px;
+  border: solid #1e4286;
+  border-width: 5px;
 }
 
 #formulario:hover {
@@ -159,12 +171,17 @@
   transition: 0.3s;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  border: solid gold;
+  border-width: 5px;
 }
 
 #button-search {
   background-color: #c49e08;
   color: #1e4286;
   border-radius: 8px;
+  padding: 10px;
+  border-width: 5px;
+  border: 5px solid #1e4286;
 }
 
 #button-search:hover {
@@ -172,6 +189,8 @@
   transition: 0.3s;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  background-color: gold;
+  border: 5px solid gold;
 }
 
 .footer {
@@ -253,6 +272,7 @@
             flex-direction: column;
     height: 300px;
     margin: 100px;
+    background-size: 100px;
   }
 }
 

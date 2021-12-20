@@ -8,10 +8,15 @@
     @include hover;
   }
 }
+
 .logo {
   width: 40%;
 }
 
+.title {  
+  margin-top: 40px; 
+}
+ 
 .title img:hover {
   transition: 0.8s;
   transform: scale(1.3);

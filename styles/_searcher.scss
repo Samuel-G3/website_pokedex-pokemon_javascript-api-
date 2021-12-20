@@ -2,32 +2,43 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   flex-direction: column;
+  
 }
 #formulario {
   max-width: 300px;
   background-color: $whiteColor;
   margin: 8px;
-  font-size: 15px;
+  font-size: 16px;
   border: 2px solid $secondaryColor;
   border-radius: 8px;
-  text-align: center;
-  
+  padding: 3px;
+  text-align: right;
+  padding: 0px 0px 0px 10px;
+  margin: 30px;
+  border: solid $secondaryColor;
+  border-width: 5px;
 }
 
 #formulario:hover {
   transition: 0.3s;
   transform: scale(1.05);
+  border: solid gold;
+  border-width: 5px;
 }
 
 #button-search {
   background-color: $tertiaryColor;
   color: $secondaryColor;
   border-radius: 8px;
+  padding: 10px; 
+  border-width: 5px;
+  border: 5px solid $secondaryColor;
 }
 
 #button-search:hover {
   transition: 0.3s;
   transform: scale(1.05);
+  background-color: gold; 
+  border: 5px solid gold;
 }
