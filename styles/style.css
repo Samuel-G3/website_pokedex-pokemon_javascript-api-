@@ -1,5 +1,10 @@
 @import url("http://fonts.cdnfonts.com/css/pokemon-solid");
 .top {
+  position: relative;
+  background: #2c3e50;
+  height: 30vh;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
   background-color: aliceblue;
   padding: 40px;
   margin: 0px;
@@ -164,6 +169,7 @@
   margin: 30px;
   border: solid #1e4286;
   border-width: 5px;
+  text-transform: capitalize;
 }
 
 #formulario:hover {
@@ -239,18 +245,27 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .top {
+    height: 10vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .logo {
     width: 100%;
   }
 }
 
-.logo2 {
-  width: 60%;
+@media only screen and (max-width: 600px) {
+  .logo:hover {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .logo2 {
-    width: 100%;
+    width: 88%;
   }
 }
 
@@ -309,7 +324,8 @@
 }
 
 body {
-  background-color: red;
+  background-color: #ff0000;
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-grey.png");
 }
 
 h1 {

@@ -1,4 +1,9 @@
 .top {
+  position: relative;
+  background: #2c3e50;
+  height: 30vh;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
   background-color: $whiteColor;
   padding: 40px;
   margin: 0px;

@@ -1,5 +1,4 @@
 const pokelista$$ = document.querySelector(".pokelista");
- 
 
 const MyPokemonArray = () => {
   const pokemonArray = [];
@@ -13,6 +12,7 @@ const MyPokemonArray = () => {
   Promise.all(pokemonArray).then((results) => {
     print(results);
   });
+
 };
 
 const print = (pokemonData) => {
@@ -35,26 +35,25 @@ const print = (pokemonData) => {
   }
 };
 
-MyPokemonArray();
-
-
 //_______________BOTÓN:
- 
 
 document.querySelector("#button-search").addEventListener("click", () => {
   let busquedaPokemon = document.querySelector("#formulario").value;
+
   const searchPokemon = async (busquedaPokemon) => {
     let pokemonAPI = await fetch(
       `https://pokeapi.co/api/v2/pokemon/${busquedaPokemon}`
-    );pokemonRES = await pokemonAPI.json();
+    );
+    pokemonRES = await pokemonAPI.json();
 
     imprimirPokemon(pokemonRES);
   };
   searchPokemon(busquedaPokemon);
 
+  //_____________POKÉMON CAZADO
+
   const imprimirPokemon = (pokemonRES) => {
     const btn = document.querySelector("#pickedPokemon");
-    btn.hidden = false;
     btn.innerHTML = `
     <div class="display">
      <h2>${pokemonRES.name}</h2>
@@ -70,3 +69,5 @@ document.querySelector("#button-search").addEventListener("click", () => {
    </div>`;
   };
 });
+
+MyPokemonArray();

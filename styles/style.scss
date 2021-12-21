@@ -7,7 +7,6 @@
 @import "./footer";
 @import "./responsive";
 
- 
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +16,8 @@
 }
 
 body {
-  background-color: red;
+  background-color: #ff0000;
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-grey.png");
 }
 
 h1 {
